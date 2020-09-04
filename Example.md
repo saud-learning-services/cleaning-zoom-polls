@@ -1,6 +1,5 @@
 # Example Zoom Poll Input and Output
 
-
 > ***Follow Along** We have included some follow along prompts that you can use to test the script on our example data. You should already have your environment setup if you would like to follow along.* 
 
 ## Example Scenario
