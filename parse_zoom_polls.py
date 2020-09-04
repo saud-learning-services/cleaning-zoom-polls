@@ -15,7 +15,7 @@ def get_files():
     
     else:
         print("Will be transforming data from the following files:\n\t{}\n".format("\n\t".join(filelist)))
-        if _confirm("Select Y to move on to clean these files."):
+        if _confirm("Enter Y to move on to clean these files."):
 
             print("\nOK. Your output will be in polls_output.\nBeginning data transformation...")
 
