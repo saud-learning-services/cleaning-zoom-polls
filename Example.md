@@ -11,14 +11,14 @@ There were 2 Zoom polls created/conducted. The first poll had 3 questions, and t
 
 The following is from the `file sample_PollReport.csv  `, and is a sample of data similar to what would be downloaded from Zoom, that matches the scenario described above. 
 
-![](example/imgs/sample_PollReport.png)
-
 **Take Note**
 - Each student has answered all questions in both polls
 - `Q2 of 3 in Poll 2 (MC)` is a multiple choice poll question, where more than one choice can be selected. 
   - You can see that Student A selected A1 and A2 (`A1;A2`)
 - Zoom polls do not include any headings for the questions/answers (blank columns in the first row)
 - The headings of this file are unchanged from Zoom, and it is essential that the headings remain as such for the script to run properly
+
+![](example/imgs/sample_PollReport.png)
 
 > ***FA**: Following the instructions in the [README](https://github.com/saud-learning-services/cleaning-zoom-polls#running-the-script), run the script. It should look something like this:*
 > ![](example/imgs/example_terminal.png)
@@ -27,14 +27,14 @@ The following is from the `file sample_PollReport.csv  `, and is a sample of dat
 
 > ***FA:** The file [sample_PollReport_cleaned.csv](example/sample_PollReport_cleaned.csv) should be found in the `poll_output` folder if everything ran properly.*
 
-![](example/imgs/sample_PollReport_cleaned.png)
-
 **Take Note**
 - Every student now has a row for each poll/question
 - There are new columns (added by the script), and name changes for some original columns
 - In our example scenario there were 2 polls, the script uses the number of unique question rows to determine how many polls there are
 
+![](example/imgs/sample_PollReport_cleaned.png)
 
+**Column Descriptions**
 column | description | example notes
 ---------|---------- |---------- 
  poll | An identifer for which poll the question(s) were a part of. Any polls with multiple questions would have the same poll number (i.e poll_1) | In this scenario, the script adds poll_1 and poll_2 based on the range of submission timestamps, and the unique first questions
