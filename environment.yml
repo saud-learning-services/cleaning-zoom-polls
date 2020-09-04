@@ -1,0 +1,12 @@
+name: zoom-polls
+channels:
+  - conda-forge
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - pandas
+  - jupyter
+  - numpy
+
+prefix: /anaconda3/envs/zoom-polls
+

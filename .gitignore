@@ -1,0 +1,8 @@
+project_notes.md
+*.csv
+*-checkpoint.py
+.ipynb_checkpoints/
+zoom-polls.code-workspace
+.vscode/
+samples/
+*.ipynb
