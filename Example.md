@@ -20,6 +20,7 @@ The following is from the `file sample_PollReport.csv  `, and is a sample of dat
 
 ![](example/imgs/sample_PollReport.png)
 
+## Example Terminal: Running the Script
 > ***FA**: Following the instructions in the [README](https://github.com/saud-learning-services/cleaning-zoom-polls#running-the-script), run the script. It should look something like this:*
 > ![](example/imgs/example_terminal.png)
 
