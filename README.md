@@ -2,18 +2,13 @@
 
 # Cleaning Zoom Polls
 
+> See [A detailed explanation with examples](Example.md).
+
 The format of Zoom poll data can be confusing/hard to work with. Each "poll" exists as it's own row of data for a student. If a poll has multiple questions, the row will contain question/answer question/answer order. If a zoom session has multiple polls, a student will have multiple rows of data.
 
 ## What Does This Script Do?
 
 This script will read zoom poll files in the `poll_input` folder, and reformat any files to a more readable question/answer format, where for each student and each poll in the file, you will have rows of single questions/answers. These new files can be found in `poll_output`.
-
-## Steps
-- Download your poll files from Zoom, following [Zoom's Instructions](https://support.zoom.us/hc/en-us/articles/216378603)
-- Add your poll file(s) to the folder `poll_input`
-- Run the script [(see detailed instructions below)](https://github.com/saud-learning-services/cleaning-zoom-polls#running-the-script): **all files in the folder** will be reformatted
-- The updated file will be available in `poll_output` with the original name plus "_cleaned"
-- If something goes wrong for a file you should see an Error message
 
 ### Important Requirements for Zoom Polls
 **The script will not work if these are not followed. We have done our best to deal with common errors, and provide some insight into what is missing, but we cannot guarantee we have caught all possible problems.**
@@ -32,6 +27,13 @@ As of September 3, 2020, https://support.zoom.us/hc/en-us/articles/216378603
 > <li>If you delete a meeting from your <a href="https://zoom.us/meeting" target="_blank" rel="noopener"><strong>Meetings</strong></a> list in the web portal, you cannot generate reports for that meeting. You can still download any reports you generated before deleting the meeting.</li>
 > <li>You should generate meeting reports after your meeting has ended. If generated a report before starting the meeting, you should re-generate the report to obtain the data collected during the meeting.</li>
 </ul>
+
+## Steps
+- Download your poll files from Zoom, following [Zoom's Instructions](https://support.zoom.us/hc/en-us/articles/216378603)
+- Add your poll file(s) to the folder `poll_input`
+- Run the script [(see detailed instructions below)](https://github.com/saud-learning-services/cleaning-zoom-polls#running-the-script): **all files in the folder** will be reformatted
+- The updated file will be available in `poll_output` with the original name plus "_cleaned"
+- If something goes wrong for a file you should see an Error message
 
 ## Running the Script
 
