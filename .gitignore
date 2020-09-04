@@ -1,5 +1,6 @@
 project_notes.md
 *.csv
+!example/sample_PollReport*
 *-checkpoint.py
 .ipynb_checkpoints/
 zoom-polls.code-workspace

@@ -1,0 +1,16 @@
+,poll,min_poll,max_poll,username,email,datetime,question_num,q_text,answer,file_name
+0,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student A,studenta@email.com,2020-07-20 15:06,1,Q1 of 3 in Poll 2,A2,sample_PollReport
+1,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student A,studenta@email.com,2020-07-20 15:06,2,Q2 of 3 in Poll 2 (MC),A1;A2,sample_PollReport
+2,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student A,studenta@email.com,2020-07-20 15:06,3,Q3 of 3 in Poll 2 (SC),A3,sample_PollReport
+3,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student B,studentb@email.com,2020-07-20 15:06,1,Q1 of 3 in Poll 2,A3,sample_PollReport
+4,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student B,studentb@email.com,2020-07-20 15:06,2,Q2 of 3 in Poll 2 (MC),A1,sample_PollReport
+5,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student B,studentb@email.com,2020-07-20 15:06,3,Q3 of 3 in Poll 2 (SC),A5,sample_PollReport
+6,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student C,studentc@email.com,2020-07-20 15:06,1,Q1 of 3 in Poll 2,A3,sample_PollReport
+7,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student C,studentc@email.com,2020-07-20 15:06,2,Q2 of 3 in Poll 2 (MC),A1,sample_PollReport
+8,poll_2,2020-07-20 15:06,2020-07-20 15:06,Student C,studentc@email.com,2020-07-20 15:06,3,Q3 of 3 in Poll 2 (SC),A5,sample_PollReport
+9,poll_1,2020-07-20 15:02,2020-07-20 15:02,Student A,studenta@email.com,2020-07-20 15:02,1,"This is q1 of poll 1 
+SC",A3,sample_PollReport
+10,poll_1,2020-07-20 15:02,2020-07-20 15:02,Student B,studentb@email.com,2020-07-20 15:02,1,"This is q1 of poll 1 
+SC",A3,sample_PollReport
+11,poll_1,2020-07-20 15:02,2020-07-20 15:02,Student C,studentc@email.com,2020-07-20 15:02,1,"This is q1 of poll 1 
+SC",A3,sample_PollReport
