@@ -150,7 +150,7 @@ def main():
     for f in files:
         # expects "poll_input/FILE.csv"
         try:
-            f_name = re.search(r"poll_input\/(.*)\.csv", f, re.IGNORECASE).group(1)
+            f_name = re.search(r"poll_input(\/|\\)(.*)\.csv", f, re.IGNORECASE).group(2)
             print("Formatting {}".format(f_name))
             df = read_data(f)
             df = reformat_long(df)
